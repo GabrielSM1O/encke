@@ -1,44 +1,38 @@
 <ion-view title="Pagos" id="pagos" style="">
   <ion-content padding="true" class="has-header">
   	<div class="button-bar">
-  <a class="button button-assertive">Web</a>
-  <a class="button button-calm">App iOS</a>
-  <a class="button button-balanced">App Android</a>
-</div>
+      <a class="button button-assertive">Web</a>
+      <a class="button button-calm">App iOS</a>
+      <a class="button button-balanced">App Android</a>
+    </div>
       <div class="list">
-
-  <a class="item item-icon-left" href="#">
-    Nombre del Proyecto:
-  </a>
-
-  <a class="item item-icon-left" href="#">
-    Monto a pagar:
-    <span class="item-note">
-      $50000
-    </span>
-  </a>
-  <a class="item item-icon-left" href="#">
-    Numero de Factura:
-    <span class="item-note">
-      N123456789
-    </span>
-  </a>
-  <button class="button button-block button-positive">
-        CANCELAR
-  </button>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <ion-list>
-
-  <ion-checkbox ng-model="filter.red">CANCELADO</ion-checkbox>
-
-</ion-list>
-
-</div>
-  
-    </ion-content>
+        <a class="item item-icon-left" href="#">
+          Nombre del Proyecto:
+        </a>
+        <a class="item item-icon-left" href="#">
+            Monto a pagar:
+          <span class="item-note">
+            <b class="assertive">$50000</b>
+          </span>
+        </a>
+        <a class="item item-icon-left" href="#">
+            Numero de Factura:
+          <span class="item-note">
+            <b class="dark">123456789</b>
+          </span>
+        </a>
+        <button class="button button-block button-positive">
+              Pago de Proyecto
+        </button>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        <ion-list>
+          <ion-checkbox ng-model="filter.red">CANCELADO</ion-checkbox>
+        </ion-list>
+    </div>
+  </ion-content>
 </ion-view>
